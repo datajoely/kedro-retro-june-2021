@@ -295,15 +295,15 @@ url: https://quantumblacklabs.github.io/kedro-viz
 <Speaker name="Lorena"/>
 
 <div class="">
-<v-clicks>
+<v-click>
 
 - <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
 - <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
 - 😭 It's now time to start divorce proceedings and move to a new approach
-- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd>  already deprecated parts of the context will be removed entirely
+- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd>  the already deprecated parts of the context will be removed entirely
 
-</v-clicks>
+</v-click>
 </div>
 
 
@@ -388,7 +388,7 @@ layout: quote
 
 # 💅 Kedro Viz: Not just a pretty face
 
-Also - we've just posted a [neat guide](https://github.com/quantumblacklabs/kedro-viz/blob/main/LAYOUT_ENGINE.md)  to how our layout engine works
+Also - we've just posted this [neat guide](https://github.com/quantumblacklabs/kedro-viz/blob/main/LAYOUT_ENGINE.md)  to how our layout engine works
 <div abs class=" abs-tr mr-25 mt-45">
 <img src="/showtime.gif" class="rounded rounded-lg shadow-lg h-50"/>
 </div>
@@ -486,13 +486,13 @@ layout: quote
 
 Our first iteration of our 'modular pipelines' feature (v0.16.2). 
 
-<v-clicks>
+<v-click>
 
 - Users can <kbd>package</kbd>, <kbd>share</kbd>, <kbd>reuse</kbd> and <kbd>consume</kbd> pipelines as discrete units across teams. 
 - We now have a year's worth of user feedback on where to take this next
 - Ever-growing central `requirements.txt` is a common pain point
 
-</v-clicks>
+</v-click>
 
 <v-click>
   <p class="text-gray-500">Inner-sourced knowledge</p>

@@ -10,7 +10,7 @@ const img = "kedro-retro-june-2021/" + props.name.toString().replace(' ', '_').t
 </script>
 
 <template>
-  <span abs class="m-1 abs-tr">
+  <span abs class="m-1 abs-tr" style="pointer-events: none">
     <div class="inline">
       <p class="text-m mr-3" >
         {{ name }}
