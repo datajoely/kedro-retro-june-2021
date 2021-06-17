@@ -32,7 +32,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 
 <ul>
   <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
-  <li><span @click="$slidev.nav.go(2)" hover="bg-white bg-opacity-10 rounded">🤔 What actually is Kedro?</span></li>
+  <li><span @click="$slidev.nav.go(2)"  hover="bg-white bg-opacity-10 rounded">🤔 What actually is Kedro?</span></li>
   <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
   <li><span @click="$slidev.nav.go(13)" hover="bg-white bg-opacity-10 rounded">🗑 No context Kedro </span></li>
   <li><span @click="$slidev.nav.go(15)" hover="bg-white bg-opacity-10 rounded">💅 Kedro Viz: Not just a pretty face</span></li>
@@ -387,6 +387,8 @@ layout: quote
 ---
 
 # 💅 Kedro Viz: Not just a pretty face
+
+Also - we've just posted a [neat guide](https://github.com/quantumblacklabs/kedro-viz/blob/main/LAYOUT_ENGINE.md)  to how our layout engine works
 <div abs class=" abs-tr mr-25 mt-45">
 <img src="/showtime.gif" class="rounded rounded-lg shadow-lg h-50"/>
 </div>
@@ -556,16 +558,16 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
 
   <ul class="text-0.8em max-w-80">
   <li>Dolt is database you can use like <code>git</code> </li>
-  <li>More robust than our <code>*VersionedDataSet</code> </li>
+  <li>Takes versioning to the next level </li>
   <li>Supports crazy stuff like data <code>diff</code> 🤯</li>
-  <li>Python API or CLI interface</li>
+  <li>Python API, CLI or SQL interface</li>
   <li>Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
   </ul>
 
 </div>
 <div class="flex-shrink">
 
-```bash  {1|8|9|all}
+```bash 
 $ dolt diff
 diff --dolt a/state_populations b/state_populations
 --- a/state_populations @ qqr3vd0ea6264oddfk4nmte66cajlhfl
