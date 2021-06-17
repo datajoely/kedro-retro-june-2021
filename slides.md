@@ -14,9 +14,12 @@ image: background.png
     Press <kbd>space</kbd> for next page <carbon:arrow-right class="inline"/>
   </span>
   </p>
+  <div abs class="abs-bl ml-5 text-gray-500"><p class="text-xs">Best viewed in Dark mode, set it here:  <SetDarkMode/></p></div>
 </div>
 <div class="w-130"><KedroIcon /></div>
+
 </div>
+
 
 ---
 theme: apple-basic
@@ -496,7 +499,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
 
 <v-click>
   <p class="text-gray-500">Inner-sourced knowledge</p>
-  <p class="text-s">We want it to becomes common practice to re-use entire pipelines across different use cases.</p>
+  <p class="text-s">We want it to become common practice to re-use entire pipelines across different use cases.</p>
 </v-click>
 
 <v-click>
@@ -618,7 +621,7 @@ $ dolt
     <ul>
     <li>Viz tools are increasingly complex - drift, validations, embeddings</li>
     <li>Diffing is simple, crude, and effective</li>
-    <li>Diffs exposed via SQL tables for automating valdation of data changes</li>
+    <li>Diffs exposed via SQL tables for automating validation of data changes</li>
     <li>Source code diff <carbon-arrow-right class="inline text-yellow-500"/> view state changes</li>
     <li>Database diff <carbon-arrow-right class="inline text-yellow-500"/> view state changes</li>
     </ul>
@@ -662,7 +665,7 @@ $ dolt
 ### What have our users have been saying?
  
 - Can I have a dynamically generated catalog?
-- How do I paramaterise a complex run?
+- How do I parameterise a complex run?
 - Help I'm drowning in YAML!
 
 </div>
