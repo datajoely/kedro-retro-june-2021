@@ -37,7 +37,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
   <li><span @click="$slidev.nav.go(13)" hover="bg-white bg-opacity-10 rounded">🗑 No context Kedro </span></li>
   <li><span @click="$slidev.nav.go(15)" hover="bg-white bg-opacity-10 rounded">💅 Kedro Viz: Not just a pretty face</span></li>
   <li><span @click="$slidev.nav.go(16)" hover="bg-white bg-opacity-10 rounded">🔮 A look to the future</span></li>
-  <li><span @click="$slidev.nav.go(21)" hover="bg-white bg-opacity-10 rounded">👋 Community improvements </span></li>
+  <li><span @click="$slidev.nav.go(22)" hover="bg-white bg-opacity-10 rounded">👋 Community improvements </span></li>
   <li><span>📣 Q&A</span></li>
 </ul>
 
@@ -542,7 +542,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
 
 ---
 
-# Diffing with Dolt
+# Diffing with Dolt (1/2)
 <Speaker name="Dolt team"/>
 
 <div class="flex">
@@ -561,7 +561,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
   <li>Takes versioning to the next level </li>
   <li>Supports crazy stuff like data <code>diff</code> 🤯</li>
   <li>Python API, CLI or SQL interface</li>
-  <li>Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
+  <li>Seamless Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
   </ul>
 
 </div>
@@ -590,6 +590,44 @@ $ dolt
 </div>
 </div>
 <Socials />
+
+---
+
+# Diffing with Dolt (2/2)
+<Speaker name="Dolt team"/>
+
+<div class="flex">
+
+  <div class="flex-grow">
+    <div><Profile name="Max" role="Integrations Engineer" github="max-hoffman" class="mb-3"/></div>
+    <div><Profile name="Oscar" role="Product" github="oscarbatori"/></div>
+  </div>
+  <div class="flex-auto"> 
+
+  <div class="m-2">    
+    <h3>Dolt</h3>
+    <ul>
+    <li>SQL query interface - (99%) MySQL compliant</li>
+    <li>Git-like features - efficient <code>branch</code>, <code>diff</code>, <code>merge</code></li>
+    <li>Repo isolation - <code>clone</code>, <code>push</code>, <code>pull</code></li>
+    </ul>
+  </div>
+  
+  <div class="m-2">  
+    <h3>Diffs</h3>
+    <ul>
+    <li>Viz tools are increasingly complex - drift, validations, embeddings</li>
+    <li>Diffing is simple, crude, and effective</li>
+    <li>Diffs exposed via SQL tables for automating valdation of data changes</li>
+    <li>Source code diff <carbon-arrow-right class="inline text-yellow-500"/> view state changes</li>
+    <li>Database diff <carbon-arrow-right class="inline text-yellow-500"/> view state changes</li>
+    </ul>
+  </div>
+
+</div>
+</div>
+<Socials />
+
 ---
 
 # Config optimisation
