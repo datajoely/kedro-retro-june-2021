@@ -731,7 +731,7 @@ $ dolt
                     GitHub Discussions
                     <carbon-logo-github class="inline m-1" />
                 </p>
-                will help codify knowledge 🙌
+                <p class="inline"> will help codify knowledge 🙌</p>
                 <p class="text-sm">
                     Threaded conversations
                     <twemoji-thread class="inline" />
