@@ -566,7 +566,7 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
   <li>Python API, CLI or SQL interface</li>
   <li>Seamless Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
   </ul>
-
+    
 </div>
 <div class="flex-shrink">
 
@@ -592,7 +592,11 @@ $ dolt
 <div abs class="abs-tl mt-90 ml-137"><p class="animate-pulse token function font-mono"> | </p></div>
 </div>
 </div>
+<br>
+
+Access the Dolt discord [here](https://discord.gg/s8uVgc3) <carbon-logo-discord class="inline"/>
 <Socials />
+
 
 ---
 
@@ -629,6 +633,9 @@ $ dolt
 
 </div>
 </div>
+
+Access the Dolt discord [here](https://discord.gg/s8uVgc3) <carbon-logo-discord class="inline"/>
+
 <Socials />
 
 ---
